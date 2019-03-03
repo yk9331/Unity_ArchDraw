@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1548180957472788}
+  m_IsPrefabAsset: 1
+--- !u!1 &1548180957472788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4479176893581012}
+  - component: {fileID: 114925914041704600}
+  m_Layer: 0
+  m_Name: Particles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4479176893581012
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548180957472788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114925914041704600
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1548180957472788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 593423c0f47d0fa4ab4c790d92cc96a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particlePrefab: {fileID: 114918913026847456, guid: f8e7c8b209f066a49a5683ec570957d1,
+    type: 2}
+  R: {fileID: 0}
+  C: {fileID: 0}
+  type: 0
+  margin: 0
+  offset_Y: 0
+  layer: 0
+  col: 0
+  row: 0
+  ParticleData: []
+  ParticleLst: []
+  particleScale: 0
+  shkSgm: 0
+  mnMvSpd_0: 0
+  mxMvSpd_0: 0
+  mnMvSpd_1: 0
+  mxMvSpd_1: 0
+  mnMvSpd_2: 0
+  mxMvSpd_2: 0
+  iCll_0: 0
+  iCll_1: 1
+  iCll_2: 1
+  iGrv_0: 0
+  iGrv_1: 1
+  iGrv_2: 0
+  drg_0: 0
+  drg_1: 0
+  drg_2: 0
+  isMoving: 0

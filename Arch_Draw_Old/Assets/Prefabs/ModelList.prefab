@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1275610436836426}
+  m_IsPrefabAsset: 1
+--- !u!1 &1275610436836426
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4494992920933590}
+  - component: {fileID: 114450857161571480}
+  m_Layer: 0
+  m_Name: ModelList
+  m_TagString: ModelPanel
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4494992920933590
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275610436836426}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114450857161571480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1275610436836426}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4197817ee4f51418fa43c6c429737748, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myModelType: 0000000001000000020000000300000004000000050000000600000007000000
+  models:
+  - type: 0
+    modelName: Brimnes
+    img: {fileID: 21300000, guid: e4a5a803695404bee9e14cf6f0602068, type: 3}
+    model: {fileID: 1205628886253156, guid: b887d5ada6aba474a8384950be72acdb, type: 2}
+  - type: 1
+    modelName: Bronden
+    img: {fileID: 21300000, guid: 425860481ffe447488d6e88c65cca8f0, type: 3}
+    model: {fileID: 1366977302632498, guid: 36b24624fa85b4dfbb90f8fd05b43dd3, type: 2}
+  - type: 1
+    modelName: Flottebo
+    img: {fileID: 21300000, guid: a02da0b898fbb4fb98a6a73440248893, type: 3}
+    model: {fileID: 1209996750911700, guid: 7e1fc5725b51642ba816e8fb1aef39a9, type: 2}
+  - type: 1
+    modelName: Koullund
+    img: {fileID: 21300000, guid: abcab591993844c24a7fc17c71d0ff2d, type: 3}
+    model: {fileID: 1080069204040610, guid: e2da8c2d4e86f41e19a4d4497d0ca921, type: 2}
+  - type: 1
+    modelName: Lappljung
+    img: {fileID: 21300000, guid: 3732e3fe918ec49f09352f94113f4e2f, type: 3}
+    model: {fileID: 1329318034430844, guid: 231a52104ec984f6bb523bed6dfc1b42, type: 2}
+  - type: 1
+    modelName: White
+    img: {fileID: 21300000, guid: 4387fff3493a6490dad3e4cb297ea7e4, type: 3}
+    model: {fileID: 1644730691907952, guid: cafd82de88b0e49fdafc486f9e9aec1a, type: 2}
+  - type: 2
+    modelName: Alu
+    img: {fileID: 21300000, guid: 080d875a18be64793b040e673c3eea61, type: 3}
+    model: {fileID: 1885946544887288, guid: 0835d9b76324942f8a42b3685351e167, type: 2}
+  - type: 2
+    modelName: Bjursta
+    img: {fileID: 21300000, guid: eefa359a997014c838578413e639a129, type: 3}
+    model: {fileID: 1904481206327144, guid: 76386fd909d93469c845e85d98acd137, type: 2}
+  - type: 2
+    modelName: Chair
+    img: {fileID: 21300000, guid: 6b231c40003664c39abe43fb0fb01a93, type: 3}
+    model: {fileID: 1369271718416560, guid: 1d497e3913f164b4d8a55c0b1f121c7c, type: 2}
+  - type: 2
+    modelName: Flottebo
+    img: {fileID: 21300000, guid: d68ca6a8786df468e898cb7c1ed14a3a, type: 3}
+    model: {fileID: 1400084449559432, guid: f71e10811f480416592e30dda3bbc040, type: 2}
+  - type: 2
+    modelName: Frosta
+    img: {fileID: 21300000, guid: b06d6cce631aa4901885a24d836f2bd0, type: 3}
+    model: {fileID: 1489947684245550, guid: b97134495082e49dc80163139c9cf5d2, type: 2}
+  - type: 2
+    modelName: Idolf
+    img: {fileID: 21300000, guid: 25eb91224e28d4e24b64160bc32a2215, type: 3}
+    model: {fileID: 1603995126895772, guid: 4a594335d71c748ae9359806b0ad6aa2, type: 2}
+  - type: 3
+    modelName: Alseda
+    img: {fileID: 21300000, guid: 25e8aed6ae7dc47ccaef7d56c31be05e, type: 3}
+    model: {fileID: 1815614935928824, guid: 361d3a3be31c6471094db11c52c44915, type: 2}
+  - type: 3
+    modelName: Curtain
+    img: {fileID: 21300000, guid: d236a712b92af4c73bdd0dd01989c29d, type: 3}
+    model: {fileID: 1223060188720782, guid: 75143412372aa4d80877e70c1f6fa224, type: 2}
+  - type: 3
+    modelName: Isfjorden
+    img: {fileID: 21300000, guid: 44ae5c12c2a0548f09dd38bcfce541d3, type: 3}
+    model: {fileID: 1644083170351340, guid: 54a67129375f24c9f8564f3171aeb079, type: 2}
+  - type: 4
+    modelName: Hektar
+    img: {fileID: 21300000, guid: 2eee7d94a90814b8bafb4c7b906e9c67, type: 3}
+    model: {fileID: 1867865453342690, guid: 723456d6872a2448290403827eb7bed5, type: 2}
+  - type: 5
+    modelName: Eket Composition
+    img: {fileID: 21300000, guid: 37f8712a7c7404ff7972f182557fd36f, type: 3}
+    model: {fileID: 1377022470453416, guid: 602020058a7e24e38a1dbe46067f7493, type: 2}
+  - type: 5
+    modelName: Hallstavik
+    img: {fileID: 21300000, guid: 501c58e801f3b4c4ababe76fb4e6f550, type: 3}
+    model: {fileID: 1484719358445066, guid: ffe9c7fc746404c82b62bca64506da37, type: 2}
+  - type: 5
+    modelName: Hemnes Short
+    img: {fileID: 21300000, guid: 810a62a35b4994b3f9316da76a70c5e8, type: 3}
+    model: {fileID: 1405113998386776, guid: 8cc616769edfd48b59ef5f0bd38645c1, type: 2}
+  - type: 5
+    modelName: Hemnes Tall
+    img: {fileID: 21300000, guid: a9fae50b0cd4b41a0824ac9278c18393, type: 3}
+    model: {fileID: 1079290575023134, guid: ab1688445415c4c9cbf91b22fc3dbc99, type: 2}
+  - type: 5
+    modelName: Hemnes Drawer
+    img: {fileID: 21300000, guid: 11e42de6ba0b845c9a213218e5772dc5, type: 3}
+    model: {fileID: 1996185214872456, guid: f56dd2c0be38e4da9a7e6e63ea099d6a, type: 2}
+  - type: 5
+    modelName: Hemnes Living
+    img: {fileID: 21300000, guid: 0920473900da64546b55a3a802b75a21, type: 3}
+    model: {fileID: 1679953161277590, guid: edfdb4911b2c54290aa5187d26437859, type: 2}
+  - type: 5
+    modelName: Hemnes Shelf
+    img: {fileID: 21300000, guid: 1fb46f11d86e04186b79a98d565677d6, type: 3}
+    model: {fileID: 1537465444647212, guid: e6ec7e847fe3e45568b72a4821f28ed2, type: 2}
+  - type: 5
+    modelName: Ikes PS
+    img: {fileID: 21300000, guid: 9b8a6de36d36744efac07f43647d32ee, type: 3}
+    model: {fileID: 1897332588751308, guid: cd6af8ee6761c4535bcbba84f1a61352, type: 2}
+  - type: 6
+    modelName: Branas
+    img: {fileID: 21300000, guid: 28762f232c9044659918060b17b151cd, type: 3}
+    model: {fileID: 1111705064621534, guid: 93efe9af6d3ab4db1b6d7e02a93daf84, type: 2}
+  - type: 7
+    modelName: Burvik
+    img: {fileID: 21300000, guid: 94c564c9d1b2948a1920f03b1edfd189, type: 3}
+    model: {fileID: 1296443820367422, guid: 9dfd184064b9e485db43fd08e2ee9d28, type: 2}
+  - type: 7
+    modelName: Desk
+    img: {fileID: 21300000, guid: 8e47da764a160447788a8247086dc762, type: 3}
+    model: {fileID: 1181488504017254, guid: 979854d45acbe400da26dc70e21c3452, type: 2}
+  - type: 7
+    modelName: Gladom
+    img: {fileID: 21300000, guid: ec15c5682b64b4352b3dc1f68bf7d4a6, type: 3}
+    model: {fileID: 1103530507495890, guid: 7297ff3116c074994a1a5513bab8c99e, type: 2}
+  - type: 7
+    modelName: Hemnes Bedside
+    img: {fileID: 21300000, guid: 4e6157fe7e2a3476b8fe3c85b25d6b6e, type: 3}
+    model: {fileID: 1939302121421492, guid: 4afc666322b3b4ce9b649fc346083d1f, type: 2}
+  - type: 7
+    modelName: Jorid
+    img: {fileID: 21300000, guid: 501e761e91b26482aa998cc719918b64, type: 3}
+    model: {fileID: 1013815090778194, guid: e10d98b9c9e9e48a48edbb8561961871, type: 2}
